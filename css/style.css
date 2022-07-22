@@ -1,0 +1,109 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+header{
+    background-color: #35424a;
+    color:#ffffff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    min-height: 30px;
+    border-bottom: 3px solid #e8491d;
+}
+header a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+}
+header ul{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float :left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header h1{
+    float: left;
+    margin :0;
+}
+
+header nav{
+    float: right;
+    margin-top : 12px;
+}
+header .highlight ,header #current{
+    color:orange;
+}
+
+header a:hover{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#showcase {
+    background-size:cover ;
+    min-height: 350px;
+    background-image: url("../img/computer.jpg");
+    background-repeat: no-repeat;
+background-position-y : -500px;
+text-align: center;
+color: #ffffff;
+}
+#showcase p{
+    font-size: 20px;
+    text-shadow: 2px 2px 2px grey  ;
+    
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+#newslatter{
+    color:white;
+    padding: 15px;
+    background-color:35424a;
+}
+
+#newslatter h1{
+    float:left;
+    margin-bottom: 15px;
+}
+#newslatter form{
+    margin-top: 20px;
+    float : right;
+    min-height: 20px;
+}
+#newslatter button{
+    color: white;
+    background-color: #e8491d;
+    min-height:25px;
+    border: 2px solid red;
+}
+#newslatter input{
+    min-height:25px;
+}
+ #boxes{
+margin-top: 15px;
+}
+#boxes .box{
+    float: left;
+    width:30%;
+}
