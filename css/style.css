@@ -107,11 +107,21 @@ color: #ffffff;
  #boxes{
 margin-top: 15px;
 }
-#boxes{
-   display: flex;
-   justify-content: space-around;
+#boxes .box{
+   float : left;
+   width:30%;
+   padding: 15px;
+text-align: center;
+
 }
-.box {
-    width:15%;
-    height:auto;
+#boxes .box img{
+    width: 90px;
+    height: 90px;
+}
+footer{
+    padding:15px;
+    text-align: center;
+    background-color: orange;
+    color:#ffffff;
+    font-weight: bold;
 }
